@@ -1,0 +1,321 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container-td {
+    position: relative;
+    width: 1728px;
+    height: 922px;
+    margin: 0 auto;
+    font-size: 0px;
+    background: #ffffff;
+    overflow: hidden;
+    margin-top: 10%;
+
+}
+
+.choose-your-experience {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    position: relative;
+    width: 325px;
+    height: 29px;
+    margin: 30px 0 0 701px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.top-attractive-destinations {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 834px;
+    height: 155px;
+    margin: 19px 0 0 447px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.455px;
+    text-align: center;
+    z-index: 1;
+}
+
+.line-td {
+    position: absolute;
+    width: 248.264px;
+    height: 2px;
+    margin: 29px 0 0 740px;
+    background: url(./assets/images/Line11.png) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.flex-row {
+    position: relative;
+    width: 1575px;
+    height: 262.5px;
+    margin: 49.5px 0 0 68px;
+    z-index: 15;
+}
+
+.south-vietnam {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 505px;
+    height: 259px;
+    top: 50%;
+    left: 50%;
+    padding: 10px 0 10px 0;
+    transform: translate(55.94%, -50.68%);
+    z-index: 6;
+}
+
+.southern-vietnam {
+    flex-shrink: 0;
+    position: relative;
+    width: 505px;
+    height: 239px;
+    background: url(./assets/images/6c59240329cf84c3b469b2dad71d9b36.jpg) no-repeat center;
+    background-size: cover;
+    filter: blur(0.5px);
+    z-index: 7;
+
+}
+
+.southern-vietnam-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: absolute;
+    width: 495px;
+    height: 62px;
+    top: 186.5px;
+    left: 10px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.205px;
+    text-align: center;
+    z-index: 8;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.81);
+    padding-top: 1%;
+}
+
+.northern {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 515px;
+    height: 260px;
+    top: 50%;
+    left: 50%;
+    padding: 10px 7px 10px 7px;
+    transform: translate(-152.91%, -49.52%);
+    z-index: 3;
+}
+
+.northern-vietnam {
+    flex-shrink: 0;
+    position: relative;
+    width: 508px;
+    height: 239px;
+    background: url(./assets/images/1b70d0bdb6b6fa5983d62aeed42d871e.jpg) no-repeat center;
+    background-size: cover;
+    filter: blur(1px);
+    z-index: 4;
+}
+
+.northern-vietnam-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: absolute;
+    width: 508px;
+    height: 62px;
+    top: 187px;
+    left: 7px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.205px;
+    text-align: center;
+    z-index: 5;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.81);
+}
+
+.central-of-vietnam {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 505px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48.02%, -48.7%);
+    z-index: 15;
+}
+
+.central-of-vietnam-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 505px;
+    height: 250px;
+    background: url(./assets/images/ba0b154c8c11e91b5384a9dbcc78b6eb.jpg) no-repeat center;
+    background-size: cover;
+    filter: blur(0.5px);
+    z-index: 16;
+}
+
+.central-of-vietnam-4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: absolute;
+    width: 505px;
+    height: 62px;
+    top: 187px;
+    left: 10px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.205px;
+    text-align: center;
+    z-index: 17;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.81);
+}
+
+.flex-row-dcf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1102px;
+    height: 262px;
+    margin: 29px 0 0 310px;
+    z-index: 12;
+}
+
+.westside-vietnam {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 515px;
+    height: 260px;
+    padding: 10px 6px 10px 6px;
+    z-index: 9;
+}
+
+.westside {
+    flex-shrink: 0;
+    position: relative;
+    width: 509px;
+    height: 248px;
+    background: url(./assets/images/00bccb01ada104a4a821edccb15f8625.jpg) no-repeat center;
+    background-size: cover;
+    filter: blur(0.5px);
+    z-index: 10;
+}
+
+.westside-vietnam-5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: absolute;
+    width: 509px;
+    height: 62px;
+    top: 196px;
+    left: 6px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.205px;
+    text-align: center;
+    z-index: 11;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.81);
+}
+
+.world {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 515px;
+    height: 260px;
+    z-index: 12;
+}
+
+.world-8 {
+    flex-shrink: 0;
+    position: positions;
+    width: 509px;
+    height: 248px;
+    background: url(./assets/images/e0c8417650b1f765fd03b35af2c1608c.jpg) no-repeat center;
+    background-size: cover;
+    filter: blur(0.5px);
+    z-index: 13;
+}
+
+.world-101 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 500px;
+    height: 62px;
+
+
+}
