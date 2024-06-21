@@ -1,6 +1,0 @@
-{
-    "require": {
-        "firebase/php-jwt": "^6.10",
-        "andreiio/blade-remix-icon": "^3.2"
-    }
-}
